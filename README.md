@@ -6,7 +6,7 @@ In this project, we will use machine learning models to investigate the correlat
 
 ## Install
 
-- **Running environment: **Google Colaboratory
+- **Running environment:** Google Colaboratory
 
   If you are also using Google colaboratory, then the following installation packages can be installed without it, as they are already pre-installed on colab.
 
@@ -94,11 +94,11 @@ Simply run the blocks in sequence and the results will be displayed step by step
   # grid_krr = KernelRidge(kernel='rbf', alpha=1e-05, gamma=0.0001)
   ```
 
-- **Using PingAn Dataset (30 factors) **
+- **Using PingAn Dataset (30 factors)**
   - Open `SVR&KRR_PingAn.ipynb`
   - Fill the file_path with the absolute path of file *PingAnBank*, which is under /DataSource.
   - Run the blocks in sequence.
-- **Using PingAn Dataset (129 factors) **
+- **Using PingAn Dataset (129 factors)**
   - Open `SVR&KRR_PingAn_only_factors.ipynb`
   - Fill the file_path with the absolute path of file *only_factors*, which is under /DataSource/PingAnBank.
   - Run the blocks in sequence.
